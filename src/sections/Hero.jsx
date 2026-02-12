@@ -50,7 +50,7 @@ export default function Hero({ onScrollTo }) {
                 onClick={() => onScrollTo("projects")}
                 className="hidden md:inline-flex border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition"
               >
-                Voir nos réalisations
+                Voir nos réalisations test
               </button>
 
             </div>
