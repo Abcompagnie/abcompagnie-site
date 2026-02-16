@@ -60,7 +60,7 @@ const ServiceFormModal = ({ isOpen, onClose }) => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://abcompagnie-api-mail-chugpbuvd-abcompagnies-projects-8426e796.vercel.app/api/sendMail", {
+      const response = await fetch("https://abcompagnie-api-mail-prz1c745b-abcompagnies-projects-8426e796.vercel.app/api/sendMail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
