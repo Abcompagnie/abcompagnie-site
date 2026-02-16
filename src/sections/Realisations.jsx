@@ -43,7 +43,7 @@ export default function Realisation() {
           </span>
 
           <h2 className="mt-3 text-3xl md:text-4xl font-bold text-gray-900">
-            Dernières réalisations livrés avec rigueur et qualité
+            Dernières réalisations livrées avec rigueur et qualité
           </h2>
 
           <p className="mt-4 text-gray-600">
