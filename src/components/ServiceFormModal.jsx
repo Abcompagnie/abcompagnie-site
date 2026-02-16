@@ -60,7 +60,7 @@ const ServiceFormModal = ({ isOpen, onClose }) => {
     setLoading(true);
 
     try {
-      const response = await fetch("https://abcompagnie-api-mail-15ezv6xft-abcompagnies-projects-8426e796.vercel.app/api/sendMail", {
+      const response = await fetch("https://abcompagnie-api-mail-9siadwgvl-abcompagnies-projects-8426e796.vercel.app/api/sendMail", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -198,7 +198,7 @@ const ServiceFormModal = ({ isOpen, onClose }) => {
 
               <button
                 type="submit"
-                className="w-full bg-[#14A3F1] text-white p-2 rounded-md hover:bg-[#1F306B] transition-all"
+                className="w-full bg-[#0000FF] text-white p-2 rounded-md hover:bg-[#1F306B] transition-all"
                 disabled={loading}
               >
                 {loading ? "Envoi en cours..." : "Envoyer la demande"}
