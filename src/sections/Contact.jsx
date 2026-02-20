@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="flex gap-4 mt-6">
             <a className="hover:text-green-500" href="#"><Linkedin size={20} /></a>
             <a className="hover:text-green-500" href="#"><Twitter size={20} /></a>
-            <a className="hover:text-green-500" href="#"><Facebook size={20} /></a>
+            <a className="hover:text-green-500" href="https://www.facebook.com/abcompagniebtp/"><Facebook size={20} /></a>
           </div>
         </div>
 

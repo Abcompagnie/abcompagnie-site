@@ -9,7 +9,7 @@ export default function Navbar({ sections }) {
     { key: "home", label: "Accueil" },
     { key: "about", label: "À propos" },
     { key: "services", label: "Services" },
-    { key: "projects", label: "Réalisation" },
+    { key: "projects", label: "Réalisations" },
     { key: "domains", label: "Autres domaines" },
     { key: "contact", label: "Contact" },
   ];
