@@ -9,11 +9,12 @@ export default function Realisation() {
     {
       title: "Immeuble résidentiel",
       category: "Construction",
-      image: "/realisations/projet-2.jpeg",
+      image: "/realisations/projet1.1.jpeg",
       images: [
-        "/realisations/projet-2.jpeg",
-        "/realisations/projet-2-1.jpeg",
-        "/realisations/projet-2-2.jpeg",
+        "/realisations/projet1.2.jpeg",
+        "/realisations/projet1.1.jpeg",
+        "/realisations/projet1.3.jpeg",
+        
       ],
     },
     {
@@ -22,8 +23,8 @@ export default function Realisation() {
       image: "/realisations/projet-5.jpg",
       images: [
         "/realisations/projet-5.jpg",
-        "/realisations/projet-5-1.jpg",
-        "/realisations/projet-5-2.jpg",
+        "/realisations/projet2.1.jpeg",
+        "/realisations/projet2.2.jpeg",
       ],
     },
     {
@@ -31,9 +32,9 @@ export default function Realisation() {
       category: "Travaux publics",
       image: "/realisations/projet-1.jpeg",
       images: [
-        "/realisations/projet-1.jpeg",
-        "/realisations/projet-1-1.jpg",
-        "/realisations/projet-1-2.jpg",
+        "/realisations/projet3.1.jpeg",
+        "/realisations/projet3.2.jpeg",
+        "/realisations/projet3.3.jpeg",
       ],
     },
     {
@@ -41,19 +42,19 @@ export default function Realisation() {
       category: "Bâtiment",
       image: "/realisations/projet-6.jpg",
       images: [
-        "/realisations/projet-6.jpg",
-        "/realisations/projet-6-1.jpg",
-        "/realisations/projet-6-2.jpg",
+        "/realisations/projet4.1.jpeg",
+        "/realisations/projet4.2.jpeg",
+        "/realisations/projet4.3.jpeg",
       ],
     },
     {
       title: "Plan architectural 3D",
       category: "Conception",
-      image: "/realisations/projet-1.jpeg",
+      image: "/realisations/projet5.1.jpeg",
       images: [
-        "/realisations/projet-1.jpeg",
-        "/realisations/projet-1-1.jpg",
-        "/realisations/projet-1-2.jpg",
+        "/realisations/projet5.1.jpeg",
+        "/realisations/projet5.2.jpeg",
+        "/realisations/projet5.3.jpeg",
       ],
     },
     {
@@ -61,9 +62,10 @@ export default function Realisation() {
       category: "Décoration",
       image: "/realisations/projet-4.jpeg",
       images: [
-        "/realisations/projet-4.jpeg",
-        "/realisations/projet-4-1.jpg",
-        "/realisations/projet-4-2.jpg",
+        "/realisations/projet6.1.jpeg",
+        "/realisations/projet6.2.jpeg",
+        "/realisations/projet6.3.jpeg",
+        "/realisations/projet6.4.jpeg",
       ],
     },
   ];
