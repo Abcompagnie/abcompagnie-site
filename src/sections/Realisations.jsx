@@ -20,9 +20,9 @@ export default function Realisation() {
     {
       title: "Rénovation de bâtiment",
       category: "Rénovation",
-      image: "/realisations/projet-5.jpg",
+      image: "/realisations/projet5.jpg",
       images: [
-        "/realisations/projet-5.jpg",
+        "/realisations/projet5.jpg",
         "/realisations/projet2.1.jpeg",
         "/realisations/projet2.2.jpeg",
       ],
@@ -40,7 +40,7 @@ export default function Realisation() {
     {
       title: "Résidence",
       category: "Bâtiment",
-      image: "/realisations/projet-6.jpg",
+      image: "/realisations/projet6.jpg",
       images: [
         "/realisations/projet4.1.jpeg",
         "/realisations/projet4.2.jpeg",
