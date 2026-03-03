@@ -35,12 +35,12 @@ export default function Hero({ onScrollTo }) {
               et travaux publics avec rigueur et qualité.
             </p>
 
-            <div className="mt-8 flex gap-4">
+            <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full">
 
               {/* DEMANDE DE DEVIS */}
               <button
                 onClick={() => setIsModalOpen(true)}
-                className="bg-[#0000FF] text-white px-8 py-3 rounded-lg font-semibold hover:opacity-90 transition"
+                className="w-full sm:w-auto bg-[#0000FF] text-white px-8 py-4 rounded-xl font-semibold hover:opacity-90 transition"
               >
                 Demander un devis
               </button>
@@ -59,9 +59,8 @@ export default function Hero({ onScrollTo }) {
                 href="https://wa.me/221765243293?text=Bonjour, je souhaite avoir plus d’informations sur vos réalisations."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:w-auto inline-flex justify-center items-center gap-2 bg-green-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-600 transition"
+                className="w-full sm:w-auto inline-flex justify-center items-center gap-2 bg-green-500 text-white px-8 py-4 rounded-xl font-semibold hover:bg-green-600 transition text-center"
               >
-                {/* Icône WhatsApp */}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
