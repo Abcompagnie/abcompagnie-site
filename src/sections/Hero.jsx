@@ -46,12 +46,33 @@ export default function Hero({ onScrollTo }) {
               </button>
 
               {/* SCROLL REALISATIONS */}
-              <button
+              {/* <button
                 onClick={() => onScrollTo("projects")}
                 className="hidden md:inline-flex border border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition"
               >
                 Voir nos réalisations
-              </button>
+              </button> */}
+
+              {/* Bouton whatsapp */}
+
+              <a
+                href="https://wa.me/221765243293?text=Bonjour, je souhaite avoir plus d’informations sur vos réalisations."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full sm:w-auto inline-flex justify-center items-center gap-2 bg-green-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-green-600 transition"
+              >
+                {/* Icône WhatsApp */}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  className="w-5 h-5"
+                >
+                  <path d="M20.52 3.48A11.77 11.77 0 0012.05 0C5.4 0 .02 5.38.02 12.02c0 2.12.55 4.19 1.6 6.02L0 24l6.16-1.6a12 12 0 005.89 1.5h.01c6.64 0 12.02-5.38 12.02-12.02 0-3.21-1.25-6.23-3.56-8.4z" />
+                </svg>
+
+                Nous contacter par WhatsApp
+              </a>
 
             </div>
           </div>
