@@ -36,7 +36,7 @@ export default function About() {
               familiale fondée en hommage à Aliou Ba, bâtisseur visionnaire.
             </p>
 
-            <ul className="mt-6 space-y-3">
+            <ul className="mt-6 space-y-3 text-left">
               {[
                 "Construction et travaux publics",
                 "Respect des normes et délais",
