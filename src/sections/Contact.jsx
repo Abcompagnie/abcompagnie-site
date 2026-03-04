@@ -28,9 +28,9 @@ export default function Footer() {
           </p>
 
           <div className="flex gap-4 mt-6">
-            <a className="hover:text-green-500" href="https://www.linkedin.com/company/abcompagnie"><Linkedin size={20} /></a>
-            <a className="hover:text-green-500" href="#"><FaTiktok size={20} /></a>
-            <a className="hover:text-green-500" href="https://web.facebook.com/profile.php?id=61588185046252"><Facebook size={20} /></a>
+            <a className="hover:text-[#BF391D]" href="https://www.linkedin.com/company/abcompagnie"><Linkedin size={20} /></a>
+            <a className="hover:text-[#BF391D]" href="#"><FaTiktok size={20} /></a>
+            <a className="hover:text-[#BF391D]" href="https://web.facebook.com/profile.php?id=61588185046252"><Facebook size={20} /></a>
           </div>
         </div>
 
