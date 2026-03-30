@@ -14,7 +14,7 @@ export default function Realisation() {
         "/realisations/projet1.2.jpeg",
         "/realisations/projet1.1.jpeg",
         "/realisations/projet1.3.jpeg",
-        
+
       ],
     },
     {
@@ -67,6 +67,21 @@ export default function Realisation() {
         "/realisations/projet6.3.jpeg",
         "/realisations/projet6.4.jpeg",
       ],
+    },
+  ];
+
+  const videos = [
+    {
+      title: "Chantier Thies en cours",
+      url: "/videos/chantier_thies.mp4",
+    },
+    {
+      title: "Chantier Mbodjiène en cours",
+      url: "/videos/chantier_mbodjene.mp4",
+    },
+    {
+      title: "Chantier Thies: Fondation",
+      url: "/videos/chantier_thies1.mp4",
     },
   ];
 
@@ -137,6 +152,39 @@ export default function Realisation() {
               </div>
             </div>
           ))}
+        </div>
+        {/* VIDEOS */}
+        <div className="mt-20">
+          <h3 className="text-2xl font-bold text-gray-900 text-center">
+            Nos réalisations en vidéo
+          </h3>
+
+          <p className="mt-3 text-gray-600 text-center">
+            Découvrez nos projets en action à travers ces vidéos.
+          </p>
+
+          <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {videos.map((video, index) => (
+              <div
+                key={index}
+                className="rounded-2xl overflow-hidden shadow-md bg-black"
+              >
+                <video
+                  controls
+                  className="w-full h-64 object-cover"
+                >
+                  <source src={video.url} type="video/mp4" />
+                  Votre navigateur ne supporte pas la vidéo.
+                </video>
+
+                <div className="p-4 bg-white">
+                  <h4 className="font-semibold text-gray-800">
+                    {video.title}
+                  </h4>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
