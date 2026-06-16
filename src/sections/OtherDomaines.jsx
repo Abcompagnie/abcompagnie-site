@@ -119,7 +119,7 @@ export default function OtherDomaines() {
   ];
 
   return (
-    <section id="domains" className="py-24 bg-gray-50">
+    <section id="domains" className="py-10 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* HEADER */}

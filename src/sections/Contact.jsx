@@ -69,7 +69,7 @@ export default function Footer() {
             </li>
             <li className="flex items-center gap-3">
               <Phone size={16} />
-              +221 70 641 00 48 / 76 524 32 93
+              +221 77 554 26 62 / 76 014 17 47
             </li>
             <li className="flex items-center gap-3">
               <MapPin size={16} />

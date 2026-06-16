@@ -26,13 +26,20 @@ export default function Hero({ onScrollTo }) {
           <div className="max-w-2xl">
 
             <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
-              Construisons des ouvrages solides et durables
+               Concevoir avec vision, construire avec excellence.
             </h1>
 
             <p className="mt-4 text-lg text-gray-200">
-              Spécialistes du BTP, nous réalisons vos projets de construction,
-              rénovation, conception de plans architecturaux, maquettes 2D/3D
-              et travaux publics avec rigueur et qualité.
+              AB Compagnie transforme vos idées en réalisations concrètes 
+              grâce à un savoir-faire alliant innovation, qualité et professionnalisme.
+              De la conception à la réalisation, nous donnons vie à vos ambitions.
+              <br />
+              <br />
+              Chaque grand projet commence par une vision. Nous la transformons en réalité.
+              <br />
+              <br />
+              Contacter nous des maintenant:+221 77 554 26 62 / 76 014 17 47
+
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full">

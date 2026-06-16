@@ -49,7 +49,7 @@ export default function Service() {
   ];
 
   return (
-    <section id="service" className="py-24 bg-gray-50">
+    <section id="service" className="py-5 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* HEADER */}
@@ -75,7 +75,7 @@ export default function Service() {
             return (
               <div
                 key={index}
-                className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-lg transition"
+                className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-lg transition border border-[#BF391D]"
               >
                 <div className="mx-auto w-16 h-16 flex items-center justify-center bg-[#0000FF]/10 rounded-2xl mb-6">
                   <Icon className="text-[#0000FF]" size={28} />
