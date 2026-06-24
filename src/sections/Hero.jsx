@@ -38,7 +38,7 @@ export default function Hero({ onScrollTo }) {
               Chaque grand projet commence par une vision. Nous la transformons en réalité.
               <br />
               <br />
-              Contacter nous des maintenant:+221 77 554 26 62 / 76 014 17 47
+              Contacter nous des maintenant:+221 70 641 00 88 / 76 524 32 93
 
             </p>
 
